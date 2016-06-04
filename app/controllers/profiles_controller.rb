@@ -13,7 +13,6 @@ class ProfilesController < ApplicationController
 	      redirect_to user_path( params[:user_id] )
 	    else
 	      render action: :new
-	      flash[:danger] = "Error, Please try again"
 	    end
   	end
 
