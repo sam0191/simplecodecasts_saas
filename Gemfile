@@ -39,6 +39,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use devise for user auth
 gem 'devise', '~> 3.4.1'
 
+#dynamic form for error validation and more
+gem 'dynamic_form', '~> 1.1', '>= 1.1.4'
+
 # Use stripe for handling payments
 gem 'stripe', '~> 1.16.1'
 
