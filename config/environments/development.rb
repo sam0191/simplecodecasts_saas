@@ -36,6 +36,8 @@ Rails.application.configure do
   # Raises helpful error messages.
   config.assets.raise_runtime_errors = true
 
+  Paperclip.options[:command_path] = "/c/Program Files/ImageMagick-6.9.3-Q16/convert"
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 end
